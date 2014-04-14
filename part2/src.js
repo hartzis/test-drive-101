@@ -22,4 +22,6 @@ var splice = function(arr, start, numToReplace, replace) {
 
 
     return newArray;
+
+    // return arr.slice(0, start).concat(replace).concat(arr.slice(numToReplace + start));
 };
