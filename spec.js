@@ -21,5 +21,5 @@ assertArraysEqual(splice(['a', 'b', 'c'], 99, 1, 'z'), ['a', 'b', 'c', 'z']);
 // You should be able to insert an arbitrary number of values using multiple arguments.
 assertArraysEqual(splice(['a', 'b', 'c'], 99, 1, 'x', 'y', 'z'), ['a', 'b', 'c', 'x', 'y', 'z']);
 
-// You can insert an item with the fourth argument.
+// description here
 assertArraysEqual(splice(['a', 'b', 'c', 'd', 'e'], 2, 2, ['y', 'z']), ['a', 'b', 'y', 'z', 'e']);
